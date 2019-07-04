@@ -7,7 +7,7 @@ function Ping(props) {
   const [answer, setAnswer] = useState("");
   useEffect(() => {
     props.incrementStep();
-  }, []);
+  });
 
   const submitAnswer = () => {
     console.log("run");
